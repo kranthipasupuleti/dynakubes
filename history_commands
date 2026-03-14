@@ -1,0 +1,433 @@
+sudo su
+    2  exit
+    3  cd
+    4  sudo su
+    5  exit
+    6  kubectl get nodes
+    7  cd
+    8  cd .kube/
+    9  vi config
+   10  kubectl get nodes
+   11  cd
+   12  cd .kube/
+   13  ll
+   14  vi config
+   15  exit
+   16  ls
+   17  aws configure sso
+   18  aws configure sso --no-browser
+   19  aws login
+   20  aws configure sso --no-browser
+   21  ls
+   22  aws s3 ls
+   23  aws eks update-kubeconfig --region us-east-1 --name dynatrace-testing
+   24  kubectl get node -all
+   25  kubectl get all -A
+   26  kubectl get all
+   27  cd .kube
+   28  ls
+   29  cat config
+   30  kubectl get all -A
+   31  kubectl get nodes
+   32  kubectl get ns -all
+   33  kubectl get ns -a
+   34  kubectl get  ns
+   35  kubectl get svc
+   36  kubectl get pods
+   37  kubectl get pods -n app1
+   38  ls
+   39  kubectl get pods -n app1
+   40  history
+   41  aws s3 ls
+   42  aws eks update-kubeconfig --region us-east-1 --name dynatrace-testing
+   43  kubectl get pods
+   44  kubectl get nodes
+   45  history
+   46  aws configure sso --no-browser
+   47  kubectl get pods -n app1
+   48  kubectl get pods
+   49  ls
+   50  cat config
+   51  kubectl get all -A
+   52  aws sso login --profile gehc-account-admin-967991930074 --use-device-code
+   53  kubectl get all -A
+   54  ls
+   55  dynakube.yaml
+   56  vi dynakube.yaml
+   57  vi gehcroot-ca.pem
+   58  kubectl create configmap gehc-root-ca-certs -n dynatrace --from-file=certs=gehcroot-ca.pem
+   59  ls
+   60  helm install dynatrace-operator oci://public.ecr.aws/dynatrace/dynatrace-operator --create-namespace --namespace dynatrace --atomic
+   61  kubectl get all -A
+   62  kubectl get pods -n kube-system -l app.kubernetes.io/name=aws-load-balancer-controller
+   63  kubectl get endpoints aws-load-balancer-webhook-service -n kube-system
+   64  kubectl get pods -n kube-system -l app.kubernetes.io/name=aws-load-balancer-controller
+   65  helm install dynatrace-operator oci://public.ecr.aws/dynatrace/dynatrace-operator --create-namespace --namespace dynatrace --atomic
+   66  kubectl get mutatingwebhookconfigurations | grep aws
+   67  aws-load-balancer-webhook
+   68  helm repo add eks https://aws.github.io/eks-charts
+   69  helm repo update
+   70  helm upgrade --install aws-load-balancer-controller eks/aws-load-balancer-controller \ -n kube-system \ --set clusterName=<your-cluster-name> \ --set serviceAccount.create=false \ --set serviceAccount.name=aws-load-balancer-controller
+   71  helm install dynatrace-operator oci://public.ecr.aws/dynatrace/dynatrace-operator --create-namespace --namespace dynatrace --atomic
+   72  kubectl create configmap gehc-root-ca-certs -n dynatrace --from-file=certs=gehcroot-ca.pem
+   73  kubectl apply -f dynakube.yaml
+   74  kubectl get pods -n dynatrace
+   75  kubectl get logs eks-k8s-2026-03-03-1772556865-activegate-0 -n dynatrace
+   76  kubectl pod describe eks-k8s-2026-03-03-1772556865-activegate-0 -n dynatrace
+   77  kubectl describe pods eks-k8s-2026-03-03-1772556865-activegate-0 -n dynatrace
+   78  kubectl get pods -n dynatrace
+   79  vi dynakube.yaml
+   80  kubectl apply -f dynakube.yaml
+   81  kubectl get pods -n dynatrace
+   82  vi dynakube.yaml
+   83  kubectl apply -f dynakube.yaml
+   84  vi dynakube.yaml
+   85  kubectl apply -f dynakube.yaml
+   86  vi dynakube.yaml
+   87  kubectl apply -f dynakube.yaml
+   88  kubectl get pods -n dynatrace
+   89  vi dynakube.yaml
+   90  kubectl apply -f dynakube.yaml
+   91  kubectl delete -f dynakube.yaml
+   92  ls
+   93  cat dynakube.yaml
+   94  kubectl get pods -n dynatrace
+   95  kubectl delete dynakube -n dynatrace --all
+   96  helm uninstall dynatrace-operator -n dynatrace
+   97  kubectl delete dynakube -n dynatrace --all
+   98  kubectl delete namespace dynatrace
+   99  curl -O https://raw.githubusercontent.com/Dynatrace/dynatrace-operator/refs/tags/v1.8.1/hack/cluster/cleanup-node-fs.sh
+  100  chmod +x cleanup-node-fs.sh
+  101  ./cleanup-node-fs.sh
+  102  kubectl delete namespace dynatrace
+  103  cat dynakube.yaml
+  104  helm install dynatrace-operator oci://public.ecr.aws/dynatrace/dynatrace-operator --create-namespace --namespace dynatrace --atomic
+  105  kubectl apply -f dynakube.yaml
+  106   kubectl get pods -n dynatrace
+  107  kubectl apply -f dynakube.yaml
+  108   kubectl get pods -n dynatrace
+  109  cat dynakube.yaml
+  110  vi dynakube.yaml
+  111  ./cleanup-node-fs.sh
+  112  helm uninstall dynatrace-operator -n dynatrace
+  113  kubectl delete namespace dynatrace
+  114  kubectl delete dynakube -n dynatrace --all
+  115  kubectl delete edgeconnect -n dynatrace --all
+  116  vi dynakube.yaml
+  117  rm dynakube.yaml
+  118  vi dynakube.yaml
+  119  helm install dynatrace-operator oci://public.ecr.aws/dynatrace/dynatrace-operator --create-namespace --namespace dynatrace --atomic
+  120   kubectl get pods -n dynatrace
+  121  kubectl apply -f dynakube.yaml
+  122   kubectl get pods -n dynatrace
+  123  kubectl get confimap -n namespace
+  124  kubectl get confimap -n dynatarce
+  125  kubectl get configmap -n dynatarce
+  126   kubectl get pods -n dynatrace
+  127  kubectl apply -f dynakube.yaml
+  128  kubectl delete -f dynakube.yaml
+  129  kubectl delete dynakube -n dynatrace --all
+  130  kubectl -n dynatrace wait edgeconnect --for=delete --all --timeout=300s
+  131  kubectl -n dynatrace wait pod --for=delete -l app.kubernetes.io/managed-by=dynatrace-operator --timeout=300s
+  132  kubectl delete edgeconnect -n dynatrace --all
+  133  helm uninstall dynatrace-operator -n dynatrace
+  134  kubectl delete namespace dynatrace
+  135  rm dynakube.yaml
+  136  vi dynakube.yaml
+  137  helm install dynatrace-operator oci://public.ecr.aws/dynatrace/dynatrace-operator --create-namespace --namespace dynatrace --atomic
+  138  vi dynakube.yaml
+  139  kubectl create configmap gehc-root-ca-certs -n dynatrace --from-file=certs=gehcroot-ca.pem
+  140  kubectl apply -f dynakube.yaml
+  141   kubectl get pods -n dynatrace
+  142   kubectl get pods all -A
+  143  kubectl get all -A
+  144   kubectl get pods -n app1
+  145  kubectl delete pods --all -n app1
+  146   kubectl get pods -n app1
+  147  kubectl delete pods --all -n app2
+  148   kubectl get pods -n app2
+  149  kubectl get all -A
+  150  vi dynakube.yaml
+  151  cp dynakube.yaml dynakube.yaml.sample
+  152  ls
+  153  vi dynakube.yaml
+  154  kubectl apply -f dynakube.yaml
+  155   kubectl get pods -n dynatrace
+  156  vi dynakube.yaml
+  157  kubectl apply -f dynakube.yaml
+  158   kubectl get pods -n dynatrace
+  159  kubectl descibe pod gehc-monitoring-team-test-oneagent-29blq -n dynatrace
+  160  kubectl describe pod gehc-monitoring-team-test-oneagent-29blq -n dynatrace
+  161   kubectl get pods -n dynatrace
+  162  vi dynakube.yaml
+  163  kubectl apply -f dynakube.yaml
+  164   kubectl get pods -n dynatrace
+  165  kubctl delete pod gehc-monitoring-team-test-oneagent-29blq -n dynatrace
+  166  kubectl delete pod gehc-monitoring-team-test-oneagent-29blq -n dynatrace
+  167  kubectl delete pod gehc-monitoring-team-test-oneagent-fpmtn -n dynatrace
+  168   kubectl get pods -n dynatrace
+  169  kubectl delete -f dynakube.yaml
+  170   kubectl get pods -n dynatrace
+  171  vi dynakube.yaml
+  172  kubectl apply -f dynakube.yaml
+  173   kubectl get pods -n dynatrace
+  174  vi dynakube.yaml
+  175  kubectl describe namespace dynatrace
+  176  cat dynakube.yaml
+  177  vi dynakube.yaml
+  178  kubectl apply -f dynakube.yaml
+  179  kubectl describe namespace dynatrace
+  180   kubectl get pods -n dynatrace
+  181  kubectl delete -f dynakube.yaml
+  182  kubectl delete dynakube -n dynatrace --all
+  183  kubectl delete edgeconnect -n dynatrace --all
+  184  kubectl -n dynatrace wait pod --for=delete -l app.kubernetes.io/managed-by=dynatrace-operator --timeout=300s
+  185  kubectl -n dynatrace wait edgeconnect --for=delete --all --timeout=300s
+  186  kubectl get pods --all-namespaces -o jsonpath='{range .items[?(@.spec.volumes[*].csi.driver=="csi.oneagent.dynatrace.com")]}{.metadata.namespace}{"\t"}{.metadata.name}{"\n"}{end}'
+  187  helm uninstall dynatrace-operator -n dynatrace
+  188  ./cleanup-node-fs.sh
+  189  cd .kube
+  190  vi dynakube.yaml
+  191  ./cleanup-node-fs.shhistory
+  192  history
+  193  cd .kube
+  194  ls
+  195  aws sso login --profile gehc-account-admin-967991930074 --use-device-code
+  196  kubectl get all -A
+  197  ls
+  198  kubectl get all -A
+  199  aws sso login --profile gehc-account-admin-967991930074 --use-device-code
+  200  kubectl get all -A
+  201  kubectl label namespace app1 dt-monitoring=true
+  202  kubectl get all -A
+  203  helm install dynatrace-operator oci://public.ecr.aws/dynatrace/dynatrace-operator --create-namespace --namespace dynatrace --atomic
+  204  kubectl get all -A
+  205  helm install dynatrace-operator oci://public.ecr.aws/dynatrace/dynatrace-operator --create-namespace --namespace dynatrace --atomic
+  206  helm version
+  207  kubectl version --short
+  208  kubectl config current-context
+  209  helm install dynatrace-operator oci://public.ecr.aws/dynatrace/dynatrace-operator   --namespace dynatrace --create-namespace --debug --wait --timeout 10m
+  210  kubectl get pods -n dynatrace
+  211  kubectl get ns dynatrac
+  212  kubectl get ns dynatrace
+  213  kubectl get all -n dynatrace
+  214  kubectl create configmap gehc-root-ca-certs -n dynatrace --from-file=certs=gehcroot-ca.pem
+  215  helm uninstall dynatrace-operator -n dynatrace
+  216  kubectl delete namespace dynatrace
+  217  kubectl -n dynatrace wait pod --for=delete -l app.kubernetes.io/managed-by=dynatrace-operator --timeout=300s
+  218  kubectl delete dynakube -n dynatrace --all
+  219  helm install dynatrace-operator oci://public.ecr.aws/dynatrace/dynatrace-operator --create-namespace --namespace dynatrace --atomic
+  220  ls
+  221  kubectl create configmap gehc-root-ca-certs -n dynatrace --from-file=certs=gehcroot-ca.pem
+  222  rm -rf dynakube.yaml.sample
+  223  rm -rf dynakube.yaml
+  224  vi dynakube.yaml
+  225  cat dynakube.yaml
+  226  kubectl apply -f dynakube.yaml
+  227  kubectl get all -n dynatrace
+  228  kubectl get pods -n dynatrace
+  229  kubectl describe pods test-monitoring-agents-activegate-0 -n dynatrace
+  230  kubectl get pods -n dynatrace
+  231  kubectl describe pods test-monitoring-agents-oneagent-kbvh4 -n dynatrace
+  232  kubectl get pods -n dynatrace
+  233  kubectl delete -f dynakube.yaml
+  234  kubectl get pods -n dynatrace
+  235  vi dynakube.yaml
+  236  kubectl apply -f dynakube.yaml
+  237  kubectl get pods -n dynatrace
+  238  kubectl delete -f dynakube.yaml
+  239  kubectl get pods -n dynatrace
+  240  vi dynakube.yaml
+  241  kubectl apply -f dynakube.yaml
+  242  kubectl get pods -n dynatrace
+  243  kubectl describe pods test-monitoring-agents-activegate-1 -n dynatrace
+  244  history
+  245   kubectl get all -A
+  246  kubectl delete -f dynakube.yaml
+  247  ls
+  248  kubectl delete dynakube -n dynatrace --all
+  249  kubectl delete edgeconnect -n dynatrace --all
+  250  kubectl -n dynatrace wait pod --for=delete -l app.kubernetes.io/managed-by=dynatrace-operator --timeout=300s
+  251  kubectl -n dynatrace wait edgeconnect --for=delete --all --timeout=300s
+  252  kubectl get pods --all-namespaces -o jsonpath='{range .items[?(@.spec.volumes[*].csi.driver=="csi.oneagent.dynatrace.com")]}{.metadata.namespace}{"\t"}{.metadata.name}{"\n"}{end}'
+  253  helm uninstall dynatrace-operator -n dynatrace
+  254  kubectl delete namespace dynatrace
+  255  chmod +x cleanup-node-fs.sh
+  256  ./cleanup-node-fs.sh
+  257  kubectl get pods -n dynatrace
+  258  kubectl get all -A
+  259  history
+  260  aws sso login --profile gehc-account-admin-967991930074 --use-device-code
+  261  ls
+  262  vi dynakube.yaml
+  263  kubectl delete -f dynakube.yaml
+  264  helm uninstall dynatrace-operator -n dynatrace
+  265  kubectl get all -A
+  266  rm -rf dynakube.yaml
+  267  vi dynakube.yaml
+  268  helm install dynatrace-operator oci://public.ecr.aws/dynatrace/dynatrace-operator --create-namespace --namespace dynatrace --atomic
+  269  vi dynakube.yaml
+  270  kubectl get all -A
+  271  kubectl label namespace app1 dt-monitoring=true
+  272  kubectl get pods -n dynatrace
+  273  rm -rf dynakube.yaml
+  274  vi dynakube.yaml
+  275  kubectl create configmap gehc-root-ca-certs -n dynatrace --from-file=certs=gehcroot-ca.pem
+  276  kubectl apply -f dynakube.yaml
+  277  kubectl get pods -n dynatrace
+  278  kubectl get namespace app1 --show-labels
+  279  kubectl label namespace app2 monitoring=excluded --overwrite
+  280  cat dynakube.yaml
+  281  vi dynakube.yaml
+  282  kubectl apply -f dynakube.yaml
+  283  kubectl get namespace app2 --show-labels
+  284  kubectl get pods -n dynatrace
+  285  kubectl get pods -n app2 -o jsonpath='{range .items[*]}{.metadata.name}{"  "}{.metadata.annotations.dynatrace\.com/inject}{"\n"}{end}'
+  286  kubectl delete pods --all -n dynatrace
+  287  kubectl get pods -n dynatrace
+  288  kubectl describe pod test-monitoring-oneagent-jxdvt -n dynatrace
+  289  kubectl get pods -n dynatrace
+  290  history
+  291  aws sso login --profile gehc-account-admin-967991930074 --use-device-code
+  292  kubectl get all -A
+  293  kubectl get pods -n dynatrace
+  294  kubectl get ds -n dynatrace
+  295  kubectl edit ds dynatrace-oneagent-csi-driver -n dynatrace
+  296  kubectl get ds -n dynatrace
+  297  kubectl edit ds test-monitoring-oneagent -n dynatrace
+  298  kubectl create configmap dynatrace-host-properties   --from-literal=DT_SECURITY_CONTEXT=TEST   -n dynatrace
+  299  vi dynakube.yaml
+  300  kubectl apply -f dynakube.yaml
+  301  kubectl delete pods --all -n dynatrace
+  302  kubectl get pods --all -n dynatrace
+  303  kubectl get pods -n dynatrace
+  304  kubectl get pods -n dynatrace -w
+  305  kubectl get pods -n dynatrace
+  306  vi dynakube.yaml
+  307  cat dynakube.yaml
+  308  kubectl annotate namespace --all dt.security_context=TEST --overwrite
+  309  kubectl get ns -o custom-columns=NAME:.metadata.name,SECURITY_CONTEXT:.metadata.annotations.dt\.security_context
+  310* kubectl get ns -o custom-columns=NAME:.metadata.name,SECURITY_CONTEXT:.metadata.annotations.dt.security_contextkubectl apply -f dynakube.yaml
+  311  kubectl delete pods --all -n app1
+  312  kubectl delete pods --all -n app2
+  313  history
+  314  cat dynakube.yaml
+  315  vi dynakube.yaml
+  316  ls -la
+  317  cd .kube
+  318  cat dynakube.yaml
+  319  vi dynakube.yaml
+  320  kubectl apply -f dynakube.yaml
+  321  history
+  322  aws sso login --profile gehc-account-admin-967991930074 --use-device-code
+  323  kubectl apply -f dynakube.yaml
+  324  vi dynakube.yaml
+  325  kubectl apply -f dynakube.yaml
+  326  history
+  327  history | grep delete
+  328  kubectl delete pods --all -n dynatrace
+  329  kubectl get  pods -n dynatrace
+  330  kubectl get  pods -n dynatrace -w
+  331  kubectl get  pods -n dynatrace
+  332  cat dynakube.yaml
+  333  vi dynakube.yaml
+  334  kubectl apply -f dynakube.yaml
+  335  vi dynakube.yaml
+  336  kubectl apply -f dynakube.yaml
+  337  vi dynakube.yaml
+  338  kubectl apply -f dynakube.yaml
+  339  vi dynakube.yaml
+  340  ls -lrt
+  341  kubectl get all -A
+  342  cat dynakube.yaml
+  343  kubectl get configmap -n dynatrace
+  344  history | grep sso
+  345  aws sso login --profile gehc-account-admin-967991930074 --use-device-code
+  346  kubectl get all -A
+  347  vi dynakube.yaml
+  348  cp dynakube.yaml dynakube.yaml_conetxt
+  349  ls
+  350  vi dynakube.yaml
+  351  kubectl apply -f dynakube.yaml
+  352  vi dynakube.yaml
+  353  kubectl label namespace app2 dt-monitoring=false
+  354  kubectl label namespace app1 dt-monitoring=true
+  355  kubectl get label namespace app1
+  356  kubectl get namespace dynatrace --show-labels
+  357  kubectl get namespace app1 --show-labels
+  358  vi dynakube.yaml
+  359  kubectl apply -f dynakube.yaml
+  360  kubectl delete pods --all -n dynatrace
+  361  cat dynakube.yaml_conetxt
+  362  kubectl delete pods --all -n app1
+  363  kubectl delete pods --all -n app2
+  364  kubectl get pods -n dynatrace
+  365  kubectl label namespace dynatrace dt-monitoring=false --overwrite
+  366  kubectl label namespace app1 dt-monitoring=false --overwrite
+  367  kubectl delete pods --all -n dynatrace
+  368  kubectl delete pods --all -n app1
+  369  kubectl label namespace app2 dt-monitoring=true --overwrite
+  370  kubectl delete pods --all -n app2
+  371  kubectl delete pods  -n dynatrace
+  372  kubectl get pods -n dynatrace
+  373  kubectl delete pod test-monitoring-logmonitoring-2hlss  -n dynatrace
+  374  kubectl delete pod test-monitoring-logmonitoring-gc9rc  -n dynatrace
+  375  kubectl get pods -n dynatrace
+  376  kubectl -n dynatrace create secret generic ag-custom-properties --from-literal=customProperties="dt.security_context=TEST1"
+  377  vi dynakube.yaml
+  378  kubectl apply -f dynakube.yaml
+  379  kubectl get pods -n dynatrace
+  380  kubectl get pods -n dynatrace -W
+  381  kubectl get pods -n dynatrace -w
+  382  kubectl describe pod test-monitoring-activegate-0 -n dynatrace
+  383  kubectl get pods -n dynatrace -w
+  384  vi dynakube.yaml
+  385  kubectl apply -f dynakube.yaml
+  386  kubectl get pods -n dynatrace -w
+  387  kubectl delete pod test-monitoring-activegate-0  -n dynatrace
+  388  kubectl get pods -n dynatrace
+  389  vi dynakube.yaml
+  390  kubectl apply -f dynakube.yaml
+  391  kubectl get pods -n dynatrace
+  392  kubectl delete pod test-monitoring-activegate-0  -n dynatrace
+  393  kubectl get pods -n dynatrace
+  394  kubectl get pods -n dynatrace -w
+  395  kubectl get pods -n dynatrace
+  396  cat dynakube.yaml_conetxt
+  397  vi dynakube.yaml
+  398  kubectl apply -f dynakube.yaml
+  399  vi dynakube.yaml
+  400  kubectl apply -f dynakube.yaml
+  401  vi dynakube.yaml
+  402  kubectl apply -f dynakube.yaml
+  403  vi dynakube.yaml
+  404  kubectl apply -f dynakube.yaml
+  405  kubectl delete -f dynakube.yaml
+  406  kubectl apply -f dynakube.yaml
+  407  vi dynakube.yaml
+  408  kubectl delete -f dynakube.yaml
+  409  kubectl apply -f dynakube.yaml
+  410  kubectl get pods -n dynatrace
+  411  kubectl delete -f dynakube.yaml
+  412  vi dynakube.yaml
+  413  kubectl apply -f dynakube.yaml
+  414  kubectl get pods -n dynatrace
+  415  kubectl get pods -n dynatrace -w
+  416  kubectl get pods -n dynatrace
+  417  kubectl pod test-monitoring-oneagent-5lzc8 -n dynatrace
+  418  kubectl pod logs test-monitoring-oneagent-5lzc8 -n dynatrace
+  419  kubectl get logs test-monitoring-oneagent-5lzc8 -n dynatrace
+  420  kubectl describe pod test-monitoring-oneagent-5lzc8 -n dynatrace
+  421  vi dynakube.yaml
+  422  kubectl apply -f dynakube.yaml
+  423  kubectl get pods -n dynatrace
+  424  cat dynakube.yaml_conetxt
+  425  vi dynakube.yaml
+  426  kubectl apply -f dynakube.yaml
+  427  kubectl get pods -n dynatrace
+  428  kubectl delete pods --all -n app1
+  429* kubectl delete pods --all -n
+  430  kubectl get ns
+  431  ls
+  432  cat dynakube.yaml_conetxt
+  433  history > my_history
