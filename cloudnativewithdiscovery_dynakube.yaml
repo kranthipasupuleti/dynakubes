@@ -1,0 +1,47 @@
+apiVersion: v1
+data:
+  apiToken: ZHQwYzAxLktTRzc0SkNHWUlDVVI0UUs3UUJGNU1MNi5LRUhSVERDWTRWUDc1TUVFRVhHSTVQV1hGUEZKVlRMQk9ZSTRQUE5TSldTSk9KT1pTRDdVSUVGU01BVVhIN0lH
+  dataIngestToken: ZHQwYzAxLk9aVFREVFdDRFJCRFdUSFdNV1BISzZDSS5FWjRIT1U1N0ZZWVVDNVRQUEZISVQ2WUlaUUM2TElaREhHT0pYUUlCWFYzM01OSFRDNEVGNzVKWU02QVQ2UFAz
+kind: Secret
+metadata:
+  name: test-monitoring
+  namespace: dynatrace
+  labels:
+    dynatrace.com/created-by: "dynatrace.kubernetes"
+type: Opaque
+---
+apiVersion: dynatrace.com/v1beta5
+kind: DynaKube
+metadata:
+  name: test-monitoring
+  namespace: dynatrace
+  labels:
+    dynatrace.com/created-by: "dynatrace.kubernetes"
+  annotations:
+    feature.dynatrace.com/k8s-app-enabled: "true"
+# Link to api reference for further information: https://docs.dynatrace.com/docs/ingest-from/setup-on-k8s/reference/dynakube-parameters
+spec:
+  apiUrl: https://aay35827.live.dynatrace.com/api
+  trustedCAs: gehc-root-ca-certs
+  networkZone: US-EAST
+  metadataEnrichment:
+    enabled: true
+  oneAgent:
+    hostGroup: test-monitoring-Test
+    cloudNativeFullStack:
+      args:
+        - --set-host-property=dt.security_context=TEST
+        - --set-monitoring-mode=discovery
+  activeGate:
+    capabilities:
+      - routing
+      - kubernetes-monitoring
+      - debugging
+    resources:
+      requests:
+        cpu: 500m
+        memory: 1.5Gi
+      limits:
+        cpu: 1000m
+        memory: 1.5Gi
+  logMonitoring: {}

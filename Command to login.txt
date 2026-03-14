@@ -1,0 +1,3 @@
+Cloud Login in Mobaxtream:-  aws sso login --profile gehc-account-admin-967991930074 --use-device-code
+
+https://gehc-master.awsapps.com/start/#/?tab=accounts

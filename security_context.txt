@@ -1,0 +1,94 @@
+
+dynakubeParameters:- 	https://docs.dynatrace.com/docs/ingest-from/setup-on-k8s/reference/dynakube-parameters
+
+Annotation:- 	kubectl annotate namespace --all dt.security_context=TEST --overwrite
+
+Configmap: 	kubectl create configmap dynatrace-host-properties --from-literal=DT_SECURITY_CONTEXT=TEST -n dynatrace
+
+		kubectl get configmap -n dynatrace
+
+
+namespace pods deleting: kubectl delete pods --all -n dynatrace
+
+Display Labels:		kubectl get namespace dynatrace --show-labels
+Create a label to a namespace:		kubectl label namespace app1 dt-monitoring=true
+Modify the label to a namespace:	 kubectl label namespace app1 dt-monitoring=false --overwrite
+
+
+
+
+kubectl -n dynatrace create secret generic ag-custom-properties --from-literal=customProperties="dt.security_context=TEST1"
+
+---------------------------......................................---------------------------------------------------------------------
+
+
+Dynakube.yaml
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+apiVersion: v1
+data:
+  apiToken: ZHQwYzAxLktTRzc0SkNHWUlDVVI0UUs3UUJGNU1MNi5LRUhSVERDWTRWUDc1TUVFRVhHSTVQV1hGUEZKVlRMQk9ZSTRQUE5TSldTSk9KT1pTRDdVSUVGU01BVVhIN0lH
+  dataIngestToken: ZHQwYzAxLk9aVFREVFdDRFJCRFdUSFdNV1BISzZDSS5FWjRIT1U1N0ZZWVVDNVRQUEZISVQ2WUlaUUM2TElaREhHT0pYUUlCWFYzM01OSFRDNEVGNzVKWU02QVQ2UFAz
+kind: Secret
+metadata:
+  name: test-monitoring
+  namespace: dynatrace
+  labels:
+    dynatrace.com/created-by: "dynatrace.kubernetes"
+type: Opaque
+---
+apiVersion: dynatrace.com/v1beta5
+kind: DynaKube
+metadata:
+  name: test-monitoring
+  namespace: dynatrace
+  labels:
+    dynatrace.com/created-by: "dynatrace.kubernetes"
+  annotations:
+    feature.dynatrace.com/k8s-app-enabled: "true"
+# Link to api reference for further information: https://docs.dynatrace.com/docs/ingest-from/setup-on-k8s/reference/dynakube-parameters
+spec:
+  apiUrl: https://aay35827.live.dynatrace.com/api
+  trustedCAs: gehc-root-ca-certs
+  networkZone: US-EAST
+  metadataEnrichment:
+    enabled: true
+  oneAgent:
+    hostGroup: test-monitoring-Test
+    cloudNativeFullStack:
+      env:
+        - name: DT_SECURITY_CONTEXT
+          valueFrom:
+            configMapKeyRef:
+              name: dynatrace-host-properties
+              key: DT_SECURITY_CONTEXT
+      args:
+        - --set-host-property=dt.security_context=$(DT_SECURITY_CONTEXT)
+      namespaceSelector:
+        matchLabels:
+          dt-monitoring: "true"
+        matchExpressions:
+          - key: kubernetes.io/metadata.name
+            operator: NotIn
+            values:
+              - app2
+      tolerations:
+        - effect: NoSchedule
+          key: node-role.kubernetes.io/master
+          operator: Exists
+        - effect: NoSchedule
+          key: node-role.kubernetes.io/control-plane
+          operator: Exists
+  activeGate:
+    capabilities:
+      - routing
+      - kubernetes-monitoring
+      - debugging
+    resources:
+      requests:
+        cpu: 500m
+        memory: 1.5Gi
+      limits:
+        cpu: 1000m
+        memory: 1.5Gi
+  logMonitoring: {}
+-------------------------------------------------------------------------------------------

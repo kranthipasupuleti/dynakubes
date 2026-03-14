@@ -1,0 +1,18 @@
+kubectl create configmap gehc-root-ca-certs -n dynatrace --from-file=certs=gehcroot-ca.pem
+ 
+rename the file from custom.pem to gehcroot-ca.pem
+ 
+trustedCAs: gehc-root-ca-certs
+
+
+
+
+helm uninstall dynatrace-operator -n dynatrace
+kubectl delete namespace dynatrace
+
+kubectl delete dynakube -n Dynatrace --all 
+kubectl -n dynatrace wait pod --for=delete -l app.kubernetes.io/managed-by=dynatrace-operator --timeout=300s
+helm uninstall dynatrace-operator -n dynatrace
+kubectl delete namespace dynatrace
+trustedCAs: gehc-root-ca-certs
+ 
