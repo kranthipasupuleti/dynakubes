@@ -1,0 +1,1028 @@
+Received: from SN7PR22MB3862.namprd22.prod.outlook.com (2603:10b6:806:321::14)
+ by SJ4PPF7882D3D77.namprd22.prod.outlook.com with HTTPS; Fri, 7 Nov 2025
+ 10:00:53 +0000
+Received: from LV3PR22MB5292.namprd22.prod.outlook.com (2603:10b6:408:1d2::9)
+ by SN7PR22MB3862.namprd22.prod.outlook.com (2603:10b6:806:321::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9298.12; Fri, 7 Nov
+ 2025 10:00:51 +0000
+Received: from LV3PR22MB5292.namprd22.prod.outlook.com
+ ([fe80::8ada:7e04:a060:48c1]) by LV3PR22MB5292.namprd22.prod.outlook.com
+ ([fe80::8ada:7e04:a060:48c1%5]) with mapi id 15.20.9298.012; Fri, 7 Nov 2025
+ 10:00:51 +0000
+From: "Gaddoju, Bhavana (Consultant)" <Bhavana.Gaddoju@gehealthcare.com>
+To: "Kranthi, Pasupuleti (Consultant)" <Pasupuleti.Kranthi@gehealthcare.com>,
+	"R, Bharath Kumar (Consultant)" <BharathKumar.R@gehealthcare.com>, "Gupta,
+ Ayushi (Consultant)" <Ayushi.Gupta@gehealthcare.com>
+CC: "Killamsetty, Sateesh (Consultant)"
+	<Sateesh.Killamsetty@gehealthcare.com>, "Chinthireddy, Ramana Reddy
+ (Consultant)" <RamanaReddy.Chinthireddy@gehealthcare.com>
+Subject: Re: RE:[CASE 176244153600435] Chat: Facing the issue while pushing
+ the docker image
+Thread-Topic: RE:[CASE 176244153600435] Chat: Facing the issue while pushing
+ the docker image
+Thread-Index: AQHcT1LDQ7Z4Kmqhakas/JZl/N7u5LTm+6q1
+Date: Fri, 7 Nov 2025 10:00:51 +0000
+Message-ID:
+	<LV3PR22MB52920CC18CF9C4F11CB0138295C3A@LV3PR22MB5292.namprd22.prod.outlook.com>
+References:
+	<0100019a5a9f2e2a-36d65858-9227-4db0-8685-4e5f12c3bda7-000000@email.amazonses.com>
+In-Reply-To:
+	<0100019a5a9f2e2a-36d65858-9227-4db0-8685-4e5f12c3bda7-000000@email.amazonses.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: LV3PR22MB5292.namprd22.prod.outlook.com
+X-MS-Exchange-Organization-SupervisoryReview-OcrResultLocation:
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-Network-Message-Id:
+	0e1f0b37-c8c6-4d75-e4f0-08de1de488a1
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-exchange-crosstenant-id: 9a309606-d6ec-4188-a28a-298812b4bbbf
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944506478)(944626604)(920097)(425001)(930097)(140003)(1420198);
+X-Microsoft-Antispam-Message-Info:
+	AUokjiKCE8hb5bNVfCzDYchiH+vtdOEObQmbDC3ritW0/oYscNDEwJ1zp1CET7qPSJn4Y8F7tLf/jFhknFKLpxSWpsp/xnWT63u9WtnslusItNjrIik7gKkjbQfzNIowTs/XA8LS+BlbbhKVVQgpBANxHEFuKFCEnBXqPeToouBDrvWoam8e1QMQzYWOLqwXhXkcV510a5OZPQjlIAsyPAHyya4caHBTAiWfb4J7K3QV6OR8S56CZ51/+IOhv6LKpgSd1hLab7vmS46Ne3zYRG0bRvKvyONJQK9vzl+Gocu0DBOOPPiuxoMd6wYEe/bQo6uRUgMSiijEbWqk9Q04gzLcTb13UMB50qZ7YusIwT/F3IVQ31tOcHXQeuHJKmegg1xsbNFgQkmao/gY/SJsgAslAb/7vhgBHYUUqwWusibXAscnMOCtnAjY33tMOLr2bE6kPd+NsdcC6diQoCE2pIjiy+IYNVKWJCGhllBfc9ZNUjwImRo9A5cwMnusOdRChHi3G5Lv0+pc8HStaF08Uhlx/b7x4NEE6MpyqBU2WJtEtDJTr4jzpQX2JRtnUnZxnVEnJ4ebx/1oSxp+plG7geF2ZA4S0357GUabSFf0Rz/4cqbW3oWee3/P5MMhoXXoxh7BVx3bnZ3MOSa/ezNkHeoVEiq1MEJIfmMNpAbvoqzyFiVyqEPc7aaJ712NHWY04wVjW++zHk0OxU1miGXyYHot+FyhWN6IDdntUrgeb8QzIGru6/HIJx+2psKbEUqaFZO1tLHVysD8pIsboXYr7zVvaNzFVYcziRS3FbyCLYc=
+Content-Type: multipart/related;
+	boundary="_004_LV3PR22MB52920CC18CF9C4F11CB0138295C3ALV3PR22MB5292namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+
+--_004_LV3PR22MB52920CC18CF9C4F11CB0138295C3ALV3PR22MB5292namp_
+Content-Type: multipart/alternative;
+	boundary="_000_LV3PR22MB52920CC18CF9C4F11CB0138295C3ALV3PR22MB5292namp_"
+
+--_000_LV3PR22MB52920CC18CF9C4F11CB0138295C3ALV3PR22MB5292namp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Team,
+
+Please find the summary of the case id.
+
+
+
+Thanks & Regards,
+
+Bhavana
+
+TRIANZ | Digital Evolution Simplified
+
+[cid:babe4405-04af-4594-8acc-50532b4487fd]
+
+________________________________
+From: Amazon Web Services <no-reply-aws@amazon.com>
+Sent: Friday, November 7, 2025 12:52 AM
+To: gehc-prd+odp-us-aiml-exp-stg@gehc-p.awsapps.com <gehc-prd+odp-us-aiml-e=
+xp-stg@gehc-p.awsapps.com>
+Cc: Killamsetty, Sateesh (Consultant) <Sateesh.Killamsetty@gehealthcare.com=
+>; Gaddoju, Bhavana (Consultant) <Bhavana.Gaddoju@gehealthcare.com>
+Subject: RE:[CASE 176244153600435] Chat: Facing the issue while pushing the=
+ docker image
+
+CAUTION: This email originated from outside of GE HealthCare. Only open lin=
+ks or attachments if you trust the sender. Report suspicious emails using O=
+utlook=92s =93Report=94 button.
+Hello,
+
+Thank you for contacting AWS Premium Support, it was a pleasure assisting y=
+ou via chime regarding the issue you observed for pushing images. Please se=
+e recap below:
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D
+Issue
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D
+Using command from this doc[1] you observed images not pushing as expected =
+along with "command not found" errors for skopeo. You worked with our Linux=
+ team however you still encountered issues with skopeo at which point I joi=
+ned the call to assist with clarification and an alternative solutions
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D
+Clarifications
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D
+After joining the call I clarified that the commands provided here[1] regar=
+ding skopeo and copying images from the public source ecr repo to a target =
+repo were simply template commands. The commands should instead be updated =
+with the correct image & tag along with a real target repo / registry. Howe=
+ver due to failure to use skopeo I showed you the alternative docker and ec=
+r commands.
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D
+Actions Taken
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D
+1. The first step in the process I had you take was creating an ECR repo[2]=
+ in order to host the images in which you required and needed to push to a =
+target repo to use for your EKS pods.
+2. After the repo was successfully created I walked you through the process=
+[3] of pulling down the public ecr images, tagging them, and pushing them t=
+o the newly created ecr repo. I have provided the commands and images below=
+:
+
+
+IMAGES:
+dynatrace/dynatrace-operator:v1.5.0
+public.ecr.aws/dynatrace/dynatrace-activegate:1.325.27.20251027-143735
+public.ecr.aws/dynatrace/dynatrace-codemodules:1.311.91.20251105-194141
+public.ecr.aws/dynatrace/dynatrace-oneagent:1.311.91.20251105-194141
+
+COMMANDS:
+
+OPERATOR
+docker tag dynatrace/dynatrace-operator:v1.5.0 991497151145.dkr.ecr.us-east=
+-1.amazonaws.com/dynatrace:v1.5.0
+docker push 991497151145.dkr.ecr.us-east-1.amazonaws.com/dynatrace:v1.5.0
+
+
+ACTIVEGATE
+docker pull public.ecr.aws/dynatrace/dynatrace-activegate:1.325.27.20251027=
+-143735
+docker tag public.ecr.aws/dynatrace/dynatrace-activegate:1.325.27.20251027-=
+143735 991497151145.dkr.ecr.us-east-1.amazonaws.com/dynatrace:1.325.27.2025=
+1027-143735
+docker push 991497151145.dkr.ecr.us-east-1.amazonaws.com/dynatrace:1.325.27=
+.20251027-143735
+
+
+CODEMODULES
+docker pull public.ecr.aws/dynatrace/dynatrace-codemodules:1.311.91.2025110=
+5-194141
+docker tag public.ecr.aws/dynatrace/dynatrace-codemodules:1.311.91.20251105=
+-194141 991497151145.dkr.ecr.us-east-1.amazonaws.com/dynatrace:1.311.91.202=
+51105-194141-2
+docker push 991497151145.dkr.ecr.us-east-1.amazonaws.com/dynatrace:1.311.91=
+.20251105-194141-2
+
+
+ONEAGENT
+docker pull public.ecr.aws/dynatrace/dynatrace-oneagent:1.311.91.20251105-1=
+94141
+docker tag public.ecr.aws/dynatrace/dynatrace-oneagent:1.311.91.20251105-19=
+4141 991497151145.dkr.ecr.us-east-1.amazonaws.com/dynatrace:1.311.91.202511=
+05-194141-1
+docker push 991497151145.dkr.ecr.us-east-1.amazonaws.com/dynatrace:1.311.91=
+.20251105-194141-1
+
+
+3. After successfully pulling down the required images, tagging them, and p=
+ushing them to your repo as expected I walked you through updating the exis=
+ting dynatrace resources in the EKS Cluster to use the new images pushed to=
+ the repo. I have provided the example yaml template file here[4] to reflec=
+t where the images need to be inserted into your dynakube yaml manifest:
+
+3a. Navigate to the image and replace the image with the corresponding onea=
+gent image: 991497151145.dkr.ecr.us-east-1.amazonaws.com/dynatrace:1.311.91=
+.20251105-194141-1
+
+kubectl edit ds <dynatrace-ds-name> -n dynatrace
+kubectl rollout restart ds <dynatrace-ds-name> -n dynatrace
+
+3b. Navigate to "activegate" section in the yaml file to add "image" and in=
+sert the activegate image: 991497151145.dkr.ecr.us-east-1.amazonaws.com/dyn=
+atrace:1.325.27.20251027-143735
+
+vi dynakube.yaml
+kubectl delete sts <dynatrace-sts-name> -n dynatrace
+
+3c. I have also provided our public ecr repo for dynatrace here[5] for futu=
+re reference to retrieve any other images you may need to pull down in the =
+future an potentially push to your ecr repo.
+
+4. After updating the images for the daemonset and statefulset and performi=
+ng the commands above we observed and confirmed that all the pods went from=
+ "ImagePullBackOff Error" to running state as expected without any further =
+issues. Additionally, you also confirmed that everything was reporting and =
+reflecting the correct data / information in your dashboard as expected.
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D
+
+I hope the above information and assistance provided today was helpful rega=
+rding this issue. Per confirmation of having answered all of your questions=
+ and everything functioning / running as expected I will go ahead and close=
+ this case as resolved. However, If you have any additional questions or co=
+ncerns please let me know, as I am always happy to assist you the best poss=
+ible way. I'm always working to provide the best possible support and I'm a=
+lways looking for ways to improve. Please rate my correspondences so I know=
+ how I'm doing. I appreciate all feedback.
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D
+References
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D
+[1] https://docs.dynatrace.com/docs/ingest-from/setup-on-k8s/guides/contain=
+er-registries/prepare-private-registry
+[2] https://docs.aws.amazon.com/AmazonECR/latest/userguide/repository-creat=
+e.html
+[3] https://docs.aws.amazon.com/AmazonECR/latest/userguide/docker-push-ecr-=
+image.html
+[4] https://github.com/Dynatrace/dynatrace-operator/blob/v1.5.0/assets/samp=
+les/dynakube/v1beta1/cloudNativeFullStack.yaml
+[5] https://gallery.ecr.aws/dynatrace?page=3D1
+
+We value your feedback. Please share your experience by rating this and oth=
+er correspondences in the AWS Support Center. You can rate a correspondence=
+ by selecting the stars in the top right corner of the correspondence.
+
+Best regards,
+Domonic N.
+Amazon Web Services
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+To share your experience or contact us again about this case, please return=
+ to the AWS Support Center using the following URL: https://console.aws.ama=
+zon.com/support/home#/case/?displayId=3D176244153600435&language=3Den<https=
+://nam10.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fkqhwb7ft.r.u=
+s-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fconsole.aws.amazon.com%252Fsu=
+pport%252Fhome%2523%252Fcase%252F%253FdisplayId%3D176244153600435%2526langu=
+age%3Den%2F1%2F0100019a5a9f2e2a-36d65858-9227-4db0-8685-4e5f12c3bda7-000000=
+%2FVykdVLIVx1IGM3Ta4cLEFu1Zk1Y%3D451&data=3D05%7C02%7CPasupuleti.Kranthi%40=
+gehealthcare.com%7C0e1f0b37c8c64d75e4f008de1de488a1%7C9a309606d6ec4188a28a2=
+98812b4bbbf%7C0%7C0%7C638981064540286186%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU=
+1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyf=
+Q%3D%3D%7C0%7C%7C%7C&sdata=3DURVXj6bRc0YrjrYGm%2Bal9V68TnKjzDH5HZW3uEmXWA4%=
+3D&reserved=3D0>
+
+Note, this e-mail was sent from an address that cannot accept incoming e-ma=
+ils. To respond to this case, please follow the link above to respond from =
+your AWS Support Center.
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Don=92t miss messages from AWS Support when you need help! Update your cont=
+act information:
+https://console.aws.amazon.com/billing/home#/account<https://nam10.safelink=
+s.protection.outlook.com/?url=3Dhttps%3A%2F%2Fkqhwb7ft.r.us-east-1.awstrack=
+.me%2FL0%2Fhttps%3A%252F%252Fconsole.aws.amazon.com%252Fbilling%252Fhome%25=
+23%252Faccount%2F1%2F0100019a5a9f2e2a-36d65858-9227-4db0-8685-4e5f12c3bda7-=
+000000%2FPo3MNEsIl1ASWdYO7dzR-N1Sl3E%3D451&data=3D05%7C02%7CPasupuleti.Kran=
+thi%40gehealthcare.com%7C0e1f0b37c8c64d75e4f008de1de488a1%7C9a309606d6ec418=
+8a28a298812b4bbbf%7C0%7C0%7C638981064540330044%7CUnknown%7CTWFpbGZsb3d8eyJF=
+bXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIld=
+UIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=3DIeNyk9Ze%2BFBmQturl8o4S06VXvdoM%2F4IOx4y=
+KkNPJ8I%3D&reserved=3D0>
+
+If you receive an error message when visiting the contact information page,=
+ visit:
+https://repost.aws/knowledge-center/iam-billing-access/<https://nam10.safel=
+inks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fkqhwb7ft.r.us-east-1.awstr=
+ack.me%2FL0%2Fhttps%3A%252F%252Frepost.aws%252Fknowledge-center%252Fiam-bil=
+ling-access%252F%2F1%2F0100019a5a9f2e2a-36d65858-9227-4db0-8685-4e5f12c3bda=
+7-000000%2FHrXkxo2gUVF0FwuaQb9730zRLTo%3D451&data=3D05%7C02%7CPasupuleti.Kr=
+anthi%40gehealthcare.com%7C0e1f0b37c8c64d75e4f008de1de488a1%7C9a309606d6ec4=
+188a28a298812b4bbbf%7C0%7C0%7C638981064540350293%7CUnknown%7CTWFpbGZsb3d8ey=
+JFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsI=
+ldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=3DpNfHJQ6%2BOOeH95xmIFSyf3W0RfpcV4dkwkz4=
+3Q5PCmE%3D&reserved=3D0>
+
+AWS Support:
+https://repost.aws/knowledge-center/<https://nam10.safelinks.protection.out=
+look.com/?url=3Dhttps%3A%2F%2Fkqhwb7ft.r.us-east-1.awstrack.me%2FL0%2Fhttps=
+%3A%252F%252Frepost.aws%252Fknowledge-center%252F%2F1%2F0100019a5a9f2e2a-36=
+d65858-9227-4db0-8685-4e5f12c3bda7-000000%2F3mJMPING-m-buCoiAHid9YaPVds%3D4=
+51&data=3D05%7C02%7CPasupuleti.Kranthi%40gehealthcare.com%7C0e1f0b37c8c64d7=
+5e4f008de1de488a1%7C9a309606d6ec4188a28a298812b4bbbf%7C0%7C0%7C638981064540=
+368804%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIs=
+IlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=3D5SwQe=
+%2BxpJXp5e0QouIoXUyTs0sGPut%2BVaxF92XnGDIU%3D&reserved=3D0>
+
+AWS Documentation:
+https://docs.aws.amazon.com/<https://nam10.safelinks.protection.outlook.com=
+/?url=3Dhttps%3A%2F%2Fkqhwb7ft.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F=
+%252Fdocs.aws.amazon.com%252F%2F1%2F0100019a5a9f2e2a-36d65858-9227-4db0-868=
+5-4e5f12c3bda7-000000%2Fxex1ef1Haj4H2v2iSA6-CRVyIbo%3D451&data=3D05%7C02%7C=
+Pasupuleti.Kranthi%40gehealthcare.com%7C0e1f0b37c8c64d75e4f008de1de488a1%7C=
+9a309606d6ec4188a28a298812b4bbbf%7C0%7C0%7C638981064540385582%7CUnknown%7CT=
+WFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFO=
+IjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=3DrUHev116RlV5MO8Pvsg9J0%2F=
+%2Fv8vSR5ystEW7WainxcA%3D&reserved=3D0>
+
+AWS Cost Management:
+https://aws.amazon.com/aws-cost-management/<https://nam10.safelinks.protect=
+ion.outlook.com/?url=3Dhttps%3A%2F%2Fkqhwb7ft.r.us-east-1.awstrack.me%2FL0%=
+2Fhttps%3A%252F%252Faws.amazon.com%252Faws-cost-management%252F%2F1%2F01000=
+19a5a9f2e2a-36d65858-9227-4db0-8685-4e5f12c3bda7-000000%2F-0wGBBnR6ClPP_KGa=
+WPuf-6Uk68%3D451&data=3D05%7C02%7CPasupuleti.Kranthi%40gehealthcare.com%7C0=
+e1f0b37c8c64d75e4f008de1de488a1%7C9a309606d6ec4188a28a298812b4bbbf%7C0%7C0%=
+7C638981064540405587%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOi=
+IwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C=
+&sdata=3DG7mFxrBUfwexdtzR%2FGjpOvpQE3usuLZq0AC%2FnTBBrNQ%3D&reserved=3D0>
+
+AWS Training:
+http://aws.amazon.com/training/<https://nam10.safelinks.protection.outlook.=
+com/?url=3Dhttp%3A%2F%2Fkqhwb7ft.r.us-east-1.awstrack.me%2FL0%2Fhttp%3A%252=
+F%252Faws.amazon.com%252Ftraining%252F%2F1%2F0100019a5a9f2e2a-36d65858-9227=
+-4db0-8685-4e5f12c3bda7-000000%2FS35x6jshI1lNHJ_2h1NfdM2jel8%3D451&data=3D0=
+5%7C02%7CPasupuleti.Kranthi%40gehealthcare.com%7C0e1f0b37c8c64d75e4f008de1d=
+e488a1%7C9a309606d6ec4188a28a298812b4bbbf%7C0%7C0%7C638981064540425183%7CUn=
+known%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4=
+zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=3DMlNX%2F7DVhjS1l%=
+2Bm3wQkzvg%2FLgCd0JJX32XVOgfdqAeQ%3D&reserved=3D0>
+
+AWS Managed Services:
+https://aws.amazon.com/managed-services/<https://nam10.safelinks.protection=
+.outlook.com/?url=3Dhttps%3A%2F%2Fkqhwb7ft.r.us-east-1.awstrack.me%2FL0%2Fh=
+ttps%3A%252F%252Faws.amazon.com%252Fmanaged-services%252F%2F1%2F0100019a5a9=
+f2e2a-36d65858-9227-4db0-8685-4e5f12c3bda7-000000%2FagE5MSJylGXETQoK21OR14q=
+vt9g%3D451&data=3D05%7C02%7CPasupuleti.Kranthi%40gehealthcare.com%7C0e1f0b3=
+7c8c64d75e4f008de1de488a1%7C9a309606d6ec4188a28a298812b4bbbf%7C0%7C0%7C6389=
+81064540442990%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAu=
+MDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=
+=3DLdi%2FjB%2FzWHcoxU5P%2F%2BXHIC%2BTtHpA74E7OOuZ4FDOl1g%3D&reserved=3D0>
+
+Amazon Web Services, Inc. is a subsidiary of Amazon.com, Inc. Amazon.com is=
+ a registered trademark of Amazon.com.
+
+This message was produced and distributed by Amazon Web Services, Inc. or i=
+ts affiliates<https://nam10.safelinks.protection.outlook.com/?url=3Dhttps%3=
+A%2F%2Fkqhwb7ft.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Faws.amazon=
+.com%252Flegal%252Fmarketingentities%252F%2F1%2F0100019a5a9f2e2a-36d65858-9=
+227-4db0-8685-4e5f12c3bda7-000000%2FxXpuJS9PIbMJu802LgEuroX4fUI%3D451&data=
+=3D05%7C02%7CPasupuleti.Kranthi%40gehealthcare.com%7C0e1f0b37c8c64d75e4f008=
+de1de488a1%7C9a309606d6ec4188a28a298812b4bbbf%7C0%7C0%7C638981064540461457%=
+7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJ=
+XaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=3DXQCeHYg8kjS2=
+Io91M9sJR%2Fj%2F3avWm4PBxQtiudHcVos%3D&reserved=3D0> 410 Terry Ave. North, =
+Seattle, WA 98109.
+
+=A9 [2025], Amazon Web Services, Inc. or its affiliates. All rights reserve=
+d. Read our Privacy Notice.<https://nam10.safelinks.protection.outlook.com/=
+?url=3Dhttps%3A%2F%2Fkqhwb7ft.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%=
+252Faws.amazon.com%252Fprivacy%252F%2F1%2F0100019a5a9f2e2a-36d65858-9227-4d=
+b0-8685-4e5f12c3bda7-000000%2F-JU4aZwbZjVXZKlNfPrDdW598Q0%3D451&data=3D05%7=
+C02%7CPasupuleti.Kranthi%40gehealthcare.com%7C0e1f0b37c8c64d75e4f008de1de48=
+8a1%7C9a309606d6ec4188a28a298812b4bbbf%7C0%7C0%7C638981064540480762%7CUnkno=
+wn%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMi=
+IsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=3DaAvu3k87U7K4%2F6zAB=
+21uAEujMprBhWAsB5Y44%2BvBfRQ%3D&reserved=3D0>
+
+[https://kqhwb7ft.r.us-east-1.awstrack.me/I0/0100019a5a9f2e2a-36d65858-9227=
+-4db0-8685-4e5f12c3bda7-000000/A4vkBsUcyv0yra0ofZveP6M09LA=3D451]
+
+--_000_LV3PR22MB52920CC18CF9C4F11CB0138295C3ALV3PR22MB5292namp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);" class=3D"elementToProof">
+Hi Team,<br>
+<br>
+Please find the summary of the case id.</div>
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);" class=3D"elementToProof">
+<br>
+</div>
+<div class=3D"elementToProof" id=3D"Signature">
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);" class=3D"elementToProof">
+<br>
+</div>
+<p style=3D"text-align: left; line-height: 11.55pt; background-color: white=
+; margin: 0px; font-family: Calibri, sans-serif; font-size: 11pt; color: rg=
+b(36, 36, 36);" class=3D"elementToProof">
+<span style=3D"font-family: Calibri, Helvetica, sans-serif; color: rgb(32, =
+31, 30); line-height: normal;">Thanks &amp; Regards,</span></p>
+<p style=3D"text-align: left; line-height: 11.55pt; background-color: white=
+; margin: 0px; font-family: Calibri, sans-serif; font-size: 11pt; color: rg=
+b(36, 36, 36);" class=3D"elementToProof">
+<span style=3D"font-family: Calibri, Helvetica, sans-serif; color: rgb(0, 3=
+6, 81); line-height: normal;">Bhavana</span></p>
+<p style=3D"text-align: left; line-height: 11.55pt; background-color: white=
+; margin: 0px; font-family: Calibri, sans-serif; font-size: 11pt; color: rg=
+b(36, 36, 36);" class=3D"elementToProof">
+<span style=3D"font-family: Calibri, Helvetica, sans-serif; color: rgb(46, =
+116, 181); line-height: normal;"><b>TRIANZ | Digital Evolution Simplified</=
+b></span></p>
+<p style=3D"text-align: left; background-color: rgb(255, 255, 255); margin:=
+ 0px; font-family: Calibri, sans-serif; font-size: 11pt; color: rgb(36, 36,=
+ 36);" class=3D"elementToProof">
+<span style=3D"font-family: Arial, sans-serif; font-size: 10pt; color: rgb(=
+31, 73, 125);"><img style=3D"width: 87.59pt; height: 78.59pt; min-width: au=
+to; min-height: auto; margin: 0px;" height=3D"104" width=3D"116" data-outlo=
+ok-trace=3D"F:1|T:1" src=3D"cid:babe4405-04af-4594-8acc-50532b4487fd"></spa=
+n></p>
+<div class=3D"elementToProof"><br>
+</div>
+</div>
+<div id=3D"appendonsend"></div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>From:</b> Amazon Web Services &=
+lt;no-reply-aws@amazon.com&gt;<br>
+<b>Sent:</b> Friday, November 7, 2025 12:52 AM<br>
+<b>To:</b> gehc-prd+odp-us-aiml-exp-stg@gehc-p.awsapps.com &lt;gehc-prd+odp=
+-us-aiml-exp-stg@gehc-p.awsapps.com&gt;<br>
+<b>Cc:</b> Killamsetty, Sateesh (Consultant) &lt;Sateesh.Killamsetty@geheal=
+thcare.com&gt;; Gaddoju, Bhavana (Consultant) &lt;Bhavana.Gaddoju@gehealthc=
+are.com&gt;<br>
+<b>Subject:</b> RE:[CASE 176244153600435] Chat: Facing the issue while push=
+ing the docker image</font>
+<div>&nbsp;</div>
+</div>
+<div>
+<div>
+<table align=3D"center" border=3D"1" cellpadding=3D"0" cellspacing=3D"0">
+<tbody>
+<tr>
+<td align=3D"center" height=3D"0" width=3D"50%" bgcolor=3D"FFEB9C"><font fa=
+ce=3D"Calibri" color=3D"9C6500"><b>CAUTION:
+</b></font><font face=3D"Calibri" color=3D"black">This email originated fro=
+m outside of GE HealthCare.
+<i>Only open links or attachments if you trust the sender</i>. Report suspi=
+cious emails using Outlook=92s =93Report=94&nbsp;button.</font></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<div>Hello,<br>
+<br>
+Thank you for contacting AWS Premium Support, it was a pleasure assisting y=
+ou via chime regarding the issue you observed for pushing images. Please se=
+e recap below:<br>
+<br>
+<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D<br>
+Issue<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D<br>
+Using command from this doc[1] you observed images not pushing as expected =
+along with &quot;command not found&quot; errors for skopeo. You worked with=
+ our Linux team however you still encountered issues with skopeo at which p=
+oint I joined the call to assist with clarification
+ and an alternative solutions<br>
+<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D<br>
+Clarifications<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D<br>
+After joining the call I clarified that the commands provided here[1] regar=
+ding skopeo and copying images from the public source ecr repo to a target =
+repo were simply template commands. The commands should instead be updated =
+with the correct image &amp; tag along
+ with a real target repo / registry. However due to failure to use skopeo I=
+ showed you the alternative docker and ecr commands.<br>
+<br>
+<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D<br>
+Actions Taken<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D<br>
+1. The first step in the process I had you take was creating an ECR repo[2]=
+ in order to host the images in which you required and needed to push to a =
+target repo to use for your EKS pods.<br>
+2. After the repo was successfully created I walked you through the process=
+[3] of pulling down the public ecr images, tagging them, and pushing them t=
+o the newly created ecr repo. I have provided the commands and images below=
+:<br>
+<br>
+<br>
+IMAGES:<br>
+dynatrace/dynatrace-operator:v1.5.0<br>
+public.ecr.aws/dynatrace/dynatrace-activegate:1.325.27.20251027-143735<br>
+public.ecr.aws/dynatrace/dynatrace-codemodules:1.311.91.20251105-194141<br>
+public.ecr.aws/dynatrace/dynatrace-oneagent:1.311.91.20251105-194141<br>
+<br>
+COMMANDS:<br>
+<br>
+OPERATOR<br>
+docker tag dynatrace/dynatrace-operator:v1.5.0 991497151145.dkr.ecr.us-east=
+-1.amazonaws.com/dynatrace:v1.5.0<br>
+docker push 991497151145.dkr.ecr.us-east-1.amazonaws.com/dynatrace:v1.5.0<b=
+r>
+<br>
+<br>
+ACTIVEGATE<br>
+docker pull public.ecr.aws/dynatrace/dynatrace-activegate:1.325.27.20251027=
+-143735<br>
+docker tag public.ecr.aws/dynatrace/dynatrace-activegate:1.325.27.20251027-=
+143735 991497151145.dkr.ecr.us-east-1.amazonaws.com/dynatrace:1.325.27.2025=
+1027-143735<br>
+docker push 991497151145.dkr.ecr.us-east-1.amazonaws.com/dynatrace:1.325.27=
+.20251027-143735<br>
+<br>
+<br>
+CODEMODULES<br>
+docker pull public.ecr.aws/dynatrace/dynatrace-codemodules:1.311.91.2025110=
+5-194141<br>
+docker tag public.ecr.aws/dynatrace/dynatrace-codemodules:1.311.91.20251105=
+-194141 991497151145.dkr.ecr.us-east-1.amazonaws.com/dynatrace:1.311.91.202=
+51105-194141-2<br>
+docker push 991497151145.dkr.ecr.us-east-1.amazonaws.com/dynatrace:1.311.91=
+.20251105-194141-2<br>
+<br>
+<br>
+ONEAGENT<br>
+docker pull public.ecr.aws/dynatrace/dynatrace-oneagent:1.311.91.20251105-1=
+94141<br>
+docker tag public.ecr.aws/dynatrace/dynatrace-oneagent:1.311.91.20251105-19=
+4141 991497151145.dkr.ecr.us-east-1.amazonaws.com/dynatrace:1.311.91.202511=
+05-194141-1<br>
+docker push 991497151145.dkr.ecr.us-east-1.amazonaws.com/dynatrace:1.311.91=
+.20251105-194141-1<br>
+<br>
+<br>
+3. After successfully pulling down the required images, tagging them, and p=
+ushing them to your repo as expected I walked you through updating the exis=
+ting dynatrace resources in the EKS Cluster to use the new images pushed to=
+ the repo. I have provided the example
+ yaml template file here[4] to reflect where the images need to be inserted=
+ into your dynakube yaml manifest:<br>
+<br>
+3a. Navigate to the image and replace the image with the corresponding onea=
+gent image: 991497151145.dkr.ecr.us-east-1.amazonaws.com/dynatrace:1.311.91=
+.20251105-194141-1<br>
+<br>
+kubectl edit ds &lt;dynatrace-ds-name&gt; -n dynatrace<br>
+kubectl rollout restart ds &lt;dynatrace-ds-name&gt; -n dynatrace<br>
+<br>
+3b. Navigate to &quot;activegate&quot; section in the yaml file to add &quo=
+t;image&quot; and insert the activegate image: 991497151145.dkr.ecr.us-east=
+-1.amazonaws.com/dynatrace:1.325.27.20251027-143735<br>
+<br>
+vi dynakube.yaml<br>
+kubectl delete sts &lt;dynatrace-sts-name&gt; -n dynatrace<br>
+<br>
+3c. I have also provided our public ecr repo for dynatrace here[5] for futu=
+re reference to retrieve any other images you may need to pull down in the =
+future an potentially push to your ecr repo.<br>
+<br>
+4. After updating the images for the daemonset and statefulset and performi=
+ng the commands above we observed and confirmed that all the pods went from=
+ &quot;ImagePullBackOff Error&quot; to running state as expected without an=
+y further issues. Additionally, you also confirmed
+ that everything was reporting and reflecting the correct data / informatio=
+n in your dashboard as expected.<br>
+<br>
+<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D<br>
+<br>
+I hope the above information and assistance provided today was helpful rega=
+rding this issue. Per confirmation of having answered all of your questions=
+ and everything functioning / running as expected I will go ahead and close=
+ this case as resolved. However,
+ If you have any additional questions or concerns please let me know, as I =
+am always happy to assist you the best possible way. I'm always working to =
+provide the best possible support and I'm always looking for ways to improv=
+e. Please rate my correspondences
+ so I know how I'm doing. I appreciate all feedback.<br>
+<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D<br>
+References<br>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D<br>
+[1] https://docs.dynatrace.com/docs/ingest-from/setup-on-k8s/guides/contain=
+er-registries/prepare-private-registry<br>
+[2] https://docs.aws.amazon.com/AmazonECR/latest/userguide/repository-creat=
+e.html<br>
+[3] https://docs.aws.amazon.com/AmazonECR/latest/userguide/docker-push-ecr-=
+image.html<br>
+[4] https://github.com/Dynatrace/dynatrace-operator/blob/v1.5.0/assets/samp=
+les/dynakube/v1beta1/cloudNativeFullStack.yaml<br>
+[5] https://gallery.ecr.aws/dynatrace?page=3D1<br>
+<br>
+We value your feedback. Please share your experience by rating this and oth=
+er correspondences in the AWS Support Center. You can rate a correspondence=
+ by selecting the stars in the top right corner of the correspondence.<br>
+<br>
+Best regards,<br>
+Domonic N.<br>
+Amazon Web Services</div>
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+<p>To share your experience or contact us again about this case, please ret=
+urn to the AWS Support Center using the following URL:
+<a href=3D"https://nam10.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fkqhwb7ft.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fconsole.aws.a=
+mazon.com%252Fsupport%252Fhome%2523%252Fcase%252F%253FdisplayId%3D176244153=
+600435%2526language%3Den%2F1%2F0100019a5a9f2e2a-36d65858-9227-4db0-8685-4e5=
+f12c3bda7-000000%2FVykdVLIVx1IGM3Ta4cLEFu1Zk1Y%3D451&amp;data=3D05%7C02%7CP=
+asupuleti.Kranthi%40gehealthcare.com%7C0e1f0b37c8c64d75e4f008de1de488a1%7C9=
+a309606d6ec4188a28a298812b4bbbf%7C0%7C0%7C638981064540286186%7CUnknown%7CTW=
+FpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOI=
+joiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DURVXj6bRc0YrjrYGm%2Bal=
+9V68TnKjzDH5HZW3uEmXWA4%3D&amp;reserved=3D0" originalsrc=3D"https://kqhwb7f=
+t.r.us-east-1.awstrack.me/L0/https:%2F%2Fconsole.aws.amazon.com%2Fsupport%2=
+Fhome%23%2Fcase%2F%3FdisplayId=3D176244153600435%26language=3Den/1/0100019a=
+5a9f2e2a-36d65858-9227-4db0-8685-4e5f12c3bda7-000000/VykdVLIVx1IGM3Ta4cLEFu=
+1Zk1Y=3D451" originalsrc=3D"https://kqhwb7ft.r.us-east-1.awstrack.me/L0/htt=
+ps:%2F%2Fconsole.aws.amazon.com%2Fsupport%2Fhome%23%2Fcase%2F%3FdisplayId=
+=3D176244153600435%26language=3Den/1/0100019a5a9f2e2a-36d65858-9227-4db0-86=
+85-4e5f12c3bda7-000000/VykdVLIVx1IGM3Ta4cLEFu1Zk1Y=3D451">
+https://console.aws.amazon.com/support/home#/case/?displayId=3D176244153600=
+435&amp;language=3Den</a>
+</p>
+<p>Note, this e-mail was sent from an address that cannot accept incoming e=
+-mails. To respond to this case, please follow the link above to respond fr=
+om your AWS Support Center.
+</p>
+<p>=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D </p>
+<p>Don=92t miss messages from AWS Support when you need help! Update your c=
+ontact information:<br>
+<a href=3D"https://nam10.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fkqhwb7ft.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fconsole.aws.a=
+mazon.com%252Fbilling%252Fhome%2523%252Faccount%2F1%2F0100019a5a9f2e2a-36d6=
+5858-9227-4db0-8685-4e5f12c3bda7-000000%2FPo3MNEsIl1ASWdYO7dzR-N1Sl3E%3D451=
+&amp;data=3D05%7C02%7CPasupuleti.Kranthi%40gehealthcare.com%7C0e1f0b37c8c64=
+d75e4f008de1de488a1%7C9a309606d6ec4188a28a298812b4bbbf%7C0%7C0%7C6389810645=
+40330044%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMC=
+IsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=
+=3DIeNyk9Ze%2BFBmQturl8o4S06VXvdoM%2F4IOx4yKkNPJ8I%3D&amp;reserved=3D0" ori=
+ginalsrc=3D"https://kqhwb7ft.r.us-east-1.awstrack.me/L0/https:%2F%2Fconsole=
+.aws.amazon.com%2Fbilling%2Fhome%23%2Faccount/1/0100019a5a9f2e2a-36d65858-9=
+227-4db0-8685-4e5f12c3bda7-000000/Po3MNEsIl1ASWdYO7dzR-N1Sl3E=3D451" origin=
+alsrc=3D"https://kqhwb7ft.r.us-east-1.awstrack.me/L0/https:%2F%2Fconsole.aw=
+s.amazon.com%2Fbilling%2Fhome%23%2Faccount/1/0100019a5a9f2e2a-36d65858-9227=
+-4db0-8685-4e5f12c3bda7-000000/Po3MNEsIl1ASWdYO7dzR-N1Sl3E=3D451">https://c=
+onsole.aws.amazon.com/billing/home#/account</a>
+</p>
+<p>If you receive an error message when visiting the contact information pa=
+ge, visit:<br>
+<a href=3D"https://nam10.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fkqhwb7ft.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Frepost.aws%25=
+2Fknowledge-center%252Fiam-billing-access%252F%2F1%2F0100019a5a9f2e2a-36d65=
+858-9227-4db0-8685-4e5f12c3bda7-000000%2FHrXkxo2gUVF0FwuaQb9730zRLTo%3D451&=
+amp;data=3D05%7C02%7CPasupuleti.Kranthi%40gehealthcare.com%7C0e1f0b37c8c64d=
+75e4f008de1de488a1%7C9a309606d6ec4188a28a298812b4bbbf%7C0%7C0%7C63898106454=
+0350293%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCI=
+sIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3D=
+pNfHJQ6%2BOOeH95xmIFSyf3W0RfpcV4dkwkz43Q5PCmE%3D&amp;reserved=3D0" original=
+src=3D"https://kqhwb7ft.r.us-east-1.awstrack.me/L0/https:%2F%2Frepost.aws%2=
+Fknowledge-center%2Fiam-billing-access%2F/1/0100019a5a9f2e2a-36d65858-9227-=
+4db0-8685-4e5f12c3bda7-000000/HrXkxo2gUVF0FwuaQb9730zRLTo=3D451" originalsr=
+c=3D"https://kqhwb7ft.r.us-east-1.awstrack.me/L0/https:%2F%2Frepost.aws%2Fk=
+nowledge-center%2Fiam-billing-access%2F/1/0100019a5a9f2e2a-36d65858-9227-4d=
+b0-8685-4e5f12c3bda7-000000/HrXkxo2gUVF0FwuaQb9730zRLTo=3D451">https://repo=
+st.aws/knowledge-center/iam-billing-access/</a>
+</p>
+<p>AWS Support:<br>
+<a href=3D"https://nam10.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fkqhwb7ft.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Frepost.aws%25=
+2Fknowledge-center%252F%2F1%2F0100019a5a9f2e2a-36d65858-9227-4db0-8685-4e5f=
+12c3bda7-000000%2F3mJMPING-m-buCoiAHid9YaPVds%3D451&amp;data=3D05%7C02%7CPa=
+supuleti.Kranthi%40gehealthcare.com%7C0e1f0b37c8c64d75e4f008de1de488a1%7C9a=
+309606d6ec4188a28a298812b4bbbf%7C0%7C0%7C638981064540368804%7CUnknown%7CTWF=
+pbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIj=
+oiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3D5SwQe%2BxpJXp5e0QouIoXU=
+yTs0sGPut%2BVaxF92XnGDIU%3D&amp;reserved=3D0" originalsrc=3D"https://kqhwb7=
+ft.r.us-east-1.awstrack.me/L0/https:%2F%2Frepost.aws%2Fknowledge-center%2F/=
+1/0100019a5a9f2e2a-36d65858-9227-4db0-8685-4e5f12c3bda7-000000/3mJMPING-m-b=
+uCoiAHid9YaPVds=3D451" originalsrc=3D"https://kqhwb7ft.r.us-east-1.awstrack=
+.me/L0/https:%2F%2Frepost.aws%2Fknowledge-center%2F/1/0100019a5a9f2e2a-36d6=
+5858-9227-4db0-8685-4e5f12c3bda7-000000/3mJMPING-m-buCoiAHid9YaPVds=3D451">=
+https://repost.aws/knowledge-center/</a>
+</p>
+<p>AWS Documentation:<br>
+<a href=3D"https://nam10.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fkqhwb7ft.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Fdocs.aws.amaz=
+on.com%252F%2F1%2F0100019a5a9f2e2a-36d65858-9227-4db0-8685-4e5f12c3bda7-000=
+000%2Fxex1ef1Haj4H2v2iSA6-CRVyIbo%3D451&amp;data=3D05%7C02%7CPasupuleti.Kra=
+nthi%40gehealthcare.com%7C0e1f0b37c8c64d75e4f008de1de488a1%7C9a309606d6ec41=
+88a28a298812b4bbbf%7C0%7C0%7C638981064540385582%7CUnknown%7CTWFpbGZsb3d8eyJ=
+FbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIl=
+dUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DrUHev116RlV5MO8Pvsg9J0%2F%2Fv8vSR5y=
+stEW7WainxcA%3D&amp;reserved=3D0" originalsrc=3D"https://kqhwb7ft.r.us-east=
+-1.awstrack.me/L0/https:%2F%2Fdocs.aws.amazon.com%2F/1/0100019a5a9f2e2a-36d=
+65858-9227-4db0-8685-4e5f12c3bda7-000000/xex1ef1Haj4H2v2iSA6-CRVyIbo=3D451"=
+ originalsrc=3D"https://kqhwb7ft.r.us-east-1.awstrack.me/L0/https:%2F%2Fdoc=
+s.aws.amazon.com%2F/1/0100019a5a9f2e2a-36d65858-9227-4db0-8685-4e5f12c3bda7=
+-000000/xex1ef1Haj4H2v2iSA6-CRVyIbo=3D451">https://docs.aws.amazon.com/</a>
+</p>
+<p>AWS Cost Management:<br>
+<a href=3D"https://nam10.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fkqhwb7ft.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Faws.amazon.co=
+m%252Faws-cost-management%252F%2F1%2F0100019a5a9f2e2a-36d65858-9227-4db0-86=
+85-4e5f12c3bda7-000000%2F-0wGBBnR6ClPP_KGaWPuf-6Uk68%3D451&amp;data=3D05%7C=
+02%7CPasupuleti.Kranthi%40gehealthcare.com%7C0e1f0b37c8c64d75e4f008de1de488=
+a1%7C9a309606d6ec4188a28a298812b4bbbf%7C0%7C0%7C638981064540405587%7CUnknow=
+n%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiI=
+sIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DG7mFxrBUfwexdtzR=
+%2FGjpOvpQE3usuLZq0AC%2FnTBBrNQ%3D&amp;reserved=3D0" originalsrc=3D"https:/=
+/kqhwb7ft.r.us-east-1.awstrack.me/L0/https:%2F%2Faws.amazon.com%2Faws-cost-=
+management%2F/1/0100019a5a9f2e2a-36d65858-9227-4db0-8685-4e5f12c3bda7-00000=
+0/-0wGBBnR6ClPP_KGaWPuf-6Uk68=3D451" originalsrc=3D"https://kqhwb7ft.r.us-e=
+ast-1.awstrack.me/L0/https:%2F%2Faws.amazon.com%2Faws-cost-management%2F/1/=
+0100019a5a9f2e2a-36d65858-9227-4db0-8685-4e5f12c3bda7-000000/-0wGBBnR6ClPP_=
+KGaWPuf-6Uk68=3D451">https://aws.amazon.com/aws-cost-management/</a>
+</p>
+<p>AWS Training:<br>
+<a href=3D"https://nam10.safelinks.protection.outlook.com/?url=3Dhttp%3A%2F=
+%2Fkqhwb7ft.r.us-east-1.awstrack.me%2FL0%2Fhttp%3A%252F%252Faws.amazon.com%=
+252Ftraining%252F%2F1%2F0100019a5a9f2e2a-36d65858-9227-4db0-8685-4e5f12c3bd=
+a7-000000%2FS35x6jshI1lNHJ_2h1NfdM2jel8%3D451&amp;data=3D05%7C02%7CPasupule=
+ti.Kranthi%40gehealthcare.com%7C0e1f0b37c8c64d75e4f008de1de488a1%7C9a309606=
+d6ec4188a28a298812b4bbbf%7C0%7C0%7C638981064540425183%7CUnknown%7CTWFpbGZsb=
+3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFp=
+bCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DMlNX%2F7DVhjS1l%2Bm3wQkzvg%2F=
+LgCd0JJX32XVOgfdqAeQ%3D&amp;reserved=3D0" originalsrc=3D"http://kqhwb7ft.r.=
+us-east-1.awstrack.me/L0/http:%2F%2Faws.amazon.com%2Ftraining%2F/1/0100019a=
+5a9f2e2a-36d65858-9227-4db0-8685-4e5f12c3bda7-000000/S35x6jshI1lNHJ_2h1NfdM=
+2jel8=3D451" originalsrc=3D"http://kqhwb7ft.r.us-east-1.awstrack.me/L0/http=
+:%2F%2Faws.amazon.com%2Ftraining%2F/1/0100019a5a9f2e2a-36d65858-9227-4db0-8=
+685-4e5f12c3bda7-000000/S35x6jshI1lNHJ_2h1NfdM2jel8=3D451">http://aws.amazo=
+n.com/training/</a>
+</p>
+<p>AWS Managed Services:<br>
+<a href=3D"https://nam10.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fkqhwb7ft.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Faws.amazon.co=
+m%252Fmanaged-services%252F%2F1%2F0100019a5a9f2e2a-36d65858-9227-4db0-8685-=
+4e5f12c3bda7-000000%2FagE5MSJylGXETQoK21OR14qvt9g%3D451&amp;data=3D05%7C02%=
+7CPasupuleti.Kranthi%40gehealthcare.com%7C0e1f0b37c8c64d75e4f008de1de488a1%=
+7C9a309606d6ec4188a28a298812b4bbbf%7C0%7C0%7C638981064540442990%7CUnknown%7=
+CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIk=
+FOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DLdi%2FjB%2FzWHcoxU5=
+P%2F%2BXHIC%2BTtHpA74E7OOuZ4FDOl1g%3D&amp;reserved=3D0" originalsrc=3D"http=
+s://kqhwb7ft.r.us-east-1.awstrack.me/L0/https:%2F%2Faws.amazon.com%2Fmanage=
+d-services%2F/1/0100019a5a9f2e2a-36d65858-9227-4db0-8685-4e5f12c3bda7-00000=
+0/agE5MSJylGXETQoK21OR14qvt9g=3D451" originalsrc=3D"https://kqhwb7ft.r.us-e=
+ast-1.awstrack.me/L0/https:%2F%2Faws.amazon.com%2Fmanaged-services%2F/1/010=
+0019a5a9f2e2a-36d65858-9227-4db0-8685-4e5f12c3bda7-000000/agE5MSJylGXETQoK2=
+1OR14qvt9g=3D451">https://aws.amazon.com/managed-services/</a>
+</p>
+<p></p>
+<p>Amazon Web Services, Inc. is a subsidiary of Amazon.com, Inc. Amazon.com=
+ is a registered trademark of Amazon.com.</p>
+<p>This message was produced and distributed by Amazon Web Services, Inc. o=
+r its <a href=3D"https://nam10.safelinks.protection.outlook.com/?url=3Dhttp=
+s%3A%2F%2Fkqhwb7ft.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Faws.ama=
+zon.com%252Flegal%252Fmarketingentities%252F%2F1%2F0100019a5a9f2e2a-36d6585=
+8-9227-4db0-8685-4e5f12c3bda7-000000%2FxXpuJS9PIbMJu802LgEuroX4fUI%3D451&am=
+p;data=3D05%7C02%7CPasupuleti.Kranthi%40gehealthcare.com%7C0e1f0b37c8c64d75=
+e4f008de1de488a1%7C9a309606d6ec4188a28a298812b4bbbf%7C0%7C0%7C6389810645404=
+61457%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsI=
+lAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DXQ=
+CeHYg8kjS2Io91M9sJR%2Fj%2F3avWm4PBxQtiudHcVos%3D&amp;reserved=3D0" original=
+src=3D"https://kqhwb7ft.r.us-east-1.awstrack.me/L0/https:%2F%2Faws.amazon.c=
+om%2Flegal%2Fmarketingentities%2F/1/0100019a5a9f2e2a-36d65858-9227-4db0-868=
+5-4e5f12c3bda7-000000/xXpuJS9PIbMJu802LgEuroX4fUI=3D451" originalsrc=3D"htt=
+ps://kqhwb7ft.r.us-east-1.awstrack.me/L0/https:%2F%2Faws.amazon.com%2Flegal=
+%2Fmarketingentities%2F/1/0100019a5a9f2e2a-36d65858-9227-4db0-8685-4e5f12c3=
+bda7-000000/xXpuJS9PIbMJu802LgEuroX4fUI=3D451">
+affiliates</a> 410 Terry Ave. North, Seattle, WA 98109.</p>
+<p>=A9 [2025], Amazon Web Services, Inc. or its affiliates. All rights rese=
+rved. Read our
+<a href=3D"https://nam10.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fkqhwb7ft.r.us-east-1.awstrack.me%2FL0%2Fhttps%3A%252F%252Faws.amazon.co=
+m%252Fprivacy%252F%2F1%2F0100019a5a9f2e2a-36d65858-9227-4db0-8685-4e5f12c3b=
+da7-000000%2F-JU4aZwbZjVXZKlNfPrDdW598Q0%3D451&amp;data=3D05%7C02%7CPasupul=
+eti.Kranthi%40gehealthcare.com%7C0e1f0b37c8c64d75e4f008de1de488a1%7C9a30960=
+6d6ec4188a28a298812b4bbbf%7C0%7C0%7C638981064540480762%7CUnknown%7CTWFpbGZs=
+b3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWF=
+pbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DaAvu3k87U7K4%2F6zAB21uAEujMp=
+rBhWAsB5Y44%2BvBfRQ%3D&amp;reserved=3D0" originalsrc=3D"https://kqhwb7ft.r.=
+us-east-1.awstrack.me/L0/https:%2F%2Faws.amazon.com%2Fprivacy%2F/1/0100019a=
+5a9f2e2a-36d65858-9227-4db0-8685-4e5f12c3bda7-000000/-JU4aZwbZjVXZKlNfPrDdW=
+598Q0=3D451" originalsrc=3D"https://kqhwb7ft.r.us-east-1.awstrack.me/L0/htt=
+ps:%2F%2Faws.amazon.com%2Fprivacy%2F/1/0100019a5a9f2e2a-36d65858-9227-4db0-=
+8685-4e5f12c3bda7-000000/-JU4aZwbZjVXZKlNfPrDdW598Q0=3D451">
+Privacy Notice.</a></p>
+<img alt=3D"" style=3D"display:none; width:1px; height:1px" src=3D"https://=
+kqhwb7ft.r.us-east-1.awstrack.me/I0/0100019a5a9f2e2a-36d65858-9227-4db0-868=
+5-4e5f12c3bda7-000000/A4vkBsUcyv0yra0ofZveP6M09LA=3D451">
+</div>
+</div>
+</body>
+</html>
+
+--_000_LV3PR22MB52920CC18CF9C4F11CB0138295C3ALV3PR22MB5292namp_--
+
+--_004_LV3PR22MB52920CC18CF9C4F11CB0138295C3ALV3PR22MB5292namp_
+Content-Type: image/png; name="Outlook-spliaxwp.png"
+Content-Description: Outlook-spliaxwp.png
+Content-Disposition: inline; filename="Outlook-spliaxwp.png"; size=10021;
+	creation-date="Fri, 07 Nov 2025 10:00:51 GMT";
+	modification-date="Fri, 07 Nov 2025 10:00:54 GMT"
+Content-ID: <babe4405-04af-4594-8acc-50532b4487fd>
+Content-Transfer-Encoding: base64
+
+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
+
+--_004_LV3PR22MB52920CC18CF9C4F11CB0138295C3ALV3PR22MB5292namp_--
